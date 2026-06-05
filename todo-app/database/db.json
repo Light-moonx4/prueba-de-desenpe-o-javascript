@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ana García",
+      "email": "admin@test.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Carlos López",
+      "email": "user@test.com",
+      "password": "123456",
+      "role": "reservas"
+    },
+    {
+      "id": "3",
+      "name": "María Torres",
+      "email": "maria@test.com",
+      "password": "123456",
+      "role": "reservas"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Websit e Redesign corpotion",
+      "description": "Corporate sur america",
+      "status": "In Progress",
+      "assignedTo": "2",
+      "createdAt": "2025-01-15",
+      "sala": "1"
+    },
+    {
+      "id": "2",
+      "name": "corporacion MVP",
+      "description": "Minimum viable product for the company mobile application",
+      "status": "In Progress",
+      "assignedTo": "1",
+      "createdAt": "2025-02-10",
+      "sala": "2"
+    },
+    {
+      "id": "3",
+      "name": "corporacion sta",
+      "description": "post",
+      "status": "reservado",
+      "assignedTo": "1",
+      "createdAt": "2025-01-05",
+      "sala": "1"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
